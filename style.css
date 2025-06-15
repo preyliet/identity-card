@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+  color: #f1f5f9;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  color: #e2e8f0;
+}
+
+.username {
+  font-size: 1rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+.role {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #38bdf8;
+}
+
+.bio {
+  font-size: 0.95rem;
+  margin: 1rem 0;
+  color: #cbd5e1;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.skills span {
+  background-color: #334155;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  color: #f8fafc;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #60a5fa;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #3b82f6;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #2563eb;
+}
